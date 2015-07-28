@@ -79,13 +79,13 @@ function takes an input range of bytes by reference and return a std.variant.Var
 
 This Variant can be of the following types:
 
- * long (for any integer type)
- * double (for any floating point type)
+ * long \(for any integer type\)
+ * double \(for any floating point type\)
  * bool
  * string
- * Variant[] (for arrays)
- * empty Variant (for null)
- * Variant[string] (for objects). 
+ * Variant\[\] \(for arrays\)
+ * empty Variant \(for null\)
+ * Variant\[string\] \(for objects\). 
 
         
         Variant v = decode(range);
